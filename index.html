@@ -40,7 +40,7 @@
         var siteurl = "https://mfysa.github.io/vidbox/embed?id=" ;
         function show(){
             var vidurl = siteurl + document.getElementById('id').value;
-            var frame = '<iframe width="560" scrolling="no" height="315" src="'+vidurl+'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+            var frame = '<iframe width="560" scrolling="no" height="315" src="'+vidurl+'" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
             document.getElementById('show').innerHTML = vidurl ;
             document.getElementById('thumb').src = document.getElementById('id').value ;
             document.getElementById('visit').innerHTML = "<a href='"+vidurl+"' target='_blank' > View Video <i style='color : rgb(241, 58, 58) ;' class='fa fa-play-circle'></i></a>";
